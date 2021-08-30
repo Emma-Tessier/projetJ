@@ -1,0 +1,89 @@
+.heart {
+  width: 10%;
+}
+.ser {
+  margin-top: 3%;
+  color: white;
+}
+#start {
+  margin-top: 10%;
+}
+#start .accroche {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+#start .accroche h3 {
+  margin-right: 25%;
+  text-align: center;
+}
+#start .accroche p {
+  font-size: 60px;
+  text-align: left;
+  margin-left: 30%;
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(../pics/fond.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 736px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+ p{
+   margin-right: 20%;
+ }
+}
+
+#start .btn1 {
+  margin-left: 40%;
+  width: 25%;
+  height: 10%;
+  border-radius: 60px 60px 60px 60px;
+}
+#start .logo {
+  width: 7%;
+}
+.pix{
+ color: white;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

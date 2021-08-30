@@ -1,0 +1,7 @@
+use test; 
+SELECT * FROM visiteurs v JOIN caracteristiques c ON  v.caracteristiques_id = c.id; 
+ALTER TABLE `visiteurs` ADD FOREIGN KEY (`caracteristiques-id`) REFERENCES `caracteristiques`(`id`) ON DELETE RESTRICT ON UPDATE RESTRICT; 
+use test; 
+SELECT * FROM visiteurs v JOIN caracteristiques c ON  v.caracteristiques_id = c.id where v.id = 22; 
+use test; 
+SELECT v.fname, v.age, v.ville, c.* FROM visiteurs v JOIN caracteristiques c ON  v.caracteristiques_id = c.id where v.id = 22; 

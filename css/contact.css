@@ -1,0 +1,72 @@
+.heart {
+  width: 10%;
+}
+.ser {
+  margin-top: 3%;
+  color: white;
+}
+.ser2{
+  margin-left: 10%;
+  color: white;
+  margin-top: -8%;
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+   .img1{
+     width: 40%;
+   }
+   .contact{
+     margin-top: -40%;
+     margin-left: 60%;
+   }
+   .btn4{
+     width: 100%;
+   }
+   .text{
+     margin-left: 2%;
+   }
+   .esp{
+     margin-left: 40%;
+   }
+   .img2{
+     width: 40%;
+     margin-left: 20%;
+   }
